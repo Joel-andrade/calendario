@@ -1,0 +1,43 @@
+
+body {
+    box-sizing: border-box;
+    margin: 0;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: salmon;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.calendario-container {
+    background-color: white;
+    width: 300px;
+    text-align: center;
+    border-radius:10px;
+    box-shadow: 0 4px 8px rgb(0,0,0,.3);
+    overflow: hidden;
+}
+.nome-mes {
+    margin: 0;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    font-size: 30px;
+    font-weight:bold;
+}
+.dia-semana {
+    font-size:20px;
+    color: darkgray;
+}
+.numero-dia {
+    font-size: 80px;
+    margin: 0;
+    font-weight: bold;
+}
+.ano {
+    margin: 20px 0;
+    font-size: 20px;
+    color: darkgray;
+    font-weight: 500;
+}
+
